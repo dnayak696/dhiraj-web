@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../Home/index.css'
 export default function Skills() {
   return (
     <>
