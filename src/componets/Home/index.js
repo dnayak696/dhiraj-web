@@ -4,12 +4,19 @@ import featuredImage from '../../assets/images/featued_image.png';
 export default function Home() {
   return (
     <div className="mt-4 pt-4" >
-       <div className="d-flex ">
-       <div className="col-4   pt-4" style={{  justifyContent:'center'}}>
-          <h1 className={{alignSlef:'end'}}> Hii !  </h1>
-          <h1 className={{alignSlef:'start'}}> I'm Dhiraj Hire me!</h1>
-
-          <button type="button" className="btn btn-info">Hire Me</button>
+       <div className="d-flex m-4 p-4">
+       <div className="col-4 pt-4 pl-2" style={{  justifyContent:'center'}}>
+      
+          <h1 style={{alignSlef:'end', paddingLeft:'40%', alignSelf:'center'}} className="pl-4"> Hii!  </h1>
+          
+          <div className="text-center">
+          <h2 style={{alignSlef:'start', color:'red'}}> I'm Dhiraj Kumar Nayak</h2>
+          <h4 style={{ color:'orange'}}>Web & Mobile App Developer</h4>
+          <h5 style={{color:'blue'}}>#React #React-Native #Vue #Node</h5>
+          
+          <button type="button" className="btn text-center btn-info">Hire Me</button>
+          </div>
+          
 
           <i className="bi bi-facebook"></i>
           
