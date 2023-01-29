@@ -4,20 +4,20 @@ import featuredImage from '../../assets/images/featued_image.png';
 export default function Home() {
   return (
     <div className="mt-4 pt-4 " >
-       <div className="d-flex  row ">
-       <div className="col-lg-4 pt-4  pl-4 col-sm-12 order-first" >
+       <div className="font-mono  grid grid-cols-3  sm:grid-col-3 ">
+       <div className="flex justify-center content-center	items-center" >
              
              <div className=" m-5">
 
             
-          <h1 style={{alignSlef:'end'}} className="pl-4"> Hi I'm Dhiraj Kumar Nayak  </h1>
+          <h1 style={{alignSlef:'end'}} className="text-xl"> Hi I'm Dhiraj Kumar Nayak  </h1>
           
          
           <h2 style={{alignSlef:'start', color:'red'}}> </h2>
-          <h4 style={{ color:'orange'}}>Web & Mobile App Developer</h4>
-          <h5 style={{color:'blue'}}>#React #React-Native #Vue #Node</h5>
+          <h4 style={{ color:'orange'}} >Full stack developer</h4>
+          <p style={{color:'blue'}}>#React #React-Native #Vue #Node #Express</p>
           
-          <button type="button" className="btn text-center btn-info">Hire Me</button>
+          <button type="button" className=" bg-cyan-300 p-2">Hire Me</button>
           
           
 
@@ -29,7 +29,7 @@ export default function Home() {
          <Skills/> */}
          </div>
        </div> 
-       <div className="col-lg-8   order-last order-md-1 "  >
+       <div className=" lg:col-span-2"  >
             <img src={featuredImage} width="100%" height="auto"/>
         </div>    
     </div>
