@@ -29,7 +29,7 @@ function Project (){
     return(
         <>
            <div className="container font-mono">
-                <h1 className="text-xl m-2 p-2 underline  font-bold text-orange-300"> Projects</h1>  
+                <h1 className="text-xl m-2 p-2 underline  font-bold text-orange-300">My Projects</h1>  
                    {
                     projects? projects.map((project) =>(
                         <div className="grid grid-cols-3 p-2">

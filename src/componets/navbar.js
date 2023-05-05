@@ -5,8 +5,8 @@ export default function NavBar() {
     <>
       <nav className="h-10 w-full bg-cyan-100  items-center text-start">
         <div className="p-2">
-          <span className="font-mono" style={{ color: "gray" }}>
-             Dhiraj Kumar Nayak
+          <span className="font-mono font-bold ticker-tighter text-black">
+             DHIRAJ KUMAR NAYAK
           </span>
         </div>
       </nav>
