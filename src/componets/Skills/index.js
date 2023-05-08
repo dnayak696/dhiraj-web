@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import '../Home/index.css'
 export default function Skills() {
   return (
@@ -10,14 +11,14 @@ export default function Skills() {
           <div className=" rounded bg-slate-50 p-4">
               <h3 className="text-lg font-bold underline text-cyan-500"> Frontend</h3>
 
-              <ul>
-                <li>React</li>
-                <li>Vue</li>
-                <li>Angular</li>
+              <ul >
+                <motion.li  whileHover={{scale: 1.2}}>React</motion.li>
+                <motion.li whileHover={{scale: 1.2}}>Vue</motion.li>
+                <motion.li whileHover={{scale: 1.2}}>Angular</motion.li>
               </ul>
           </div>
 
-          <div>
+          <div className=" rounded bg-slate-50 p-4">
              <h3 className="text-lg font-bold underline text-cyan-500"> Backend</h3>
             <ul>
               <li>Node js</li>
@@ -26,7 +27,7 @@ export default function Skills() {
             </ul>
           </div>
 
-          <div>
+          <div className=" rounded bg-slate-50 p-4">
             <h3 className="text-lg font-bold underline text-cyan-500">Mobile App</h3>
             <ul>
               <li> React Native</li>
@@ -34,7 +35,7 @@ export default function Skills() {
             </ul>
           </div>
 
-          <div>
+          <div className=" rounded bg-slate-50 p-4">
             <h3 className="text-lg font-bold underline text-cyan-500">Databases</h3>
             <ul>
               <li>MongoDB</li>

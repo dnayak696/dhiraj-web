@@ -2,6 +2,8 @@ import React from "react";
 import featuredImage from '../../assets/images/featued_image1.png';
 import Project from "../project";
 import Skills from "../Skills";
+import {motion} from "framer-motion";
+
 export default function Home() {
   return (
     <div className="mt-2 md:m-4 pt-2 " >
@@ -25,9 +27,7 @@ export default function Home() {
             <li className="p-2"> <a href="https://github.com/dnayak696" target="_blank">GitHub </a></li>
           </ul>
           
-          <button type="button" className=" transition duration-300 ease-in-out hover:duration-150  bg-cyan-300 hover:bg-cyan-500  p-2 rounded mt-4">Hire Me</button>
-          
-          
+          <motion.button whileHover={{scale: 1.2}} type="button" className=" transition duration-300 ease-in-out hover:duration-150  bg-cyan-300 hover:bg-cyan-500  p-2 rounded mt-4">Hire Me</motion.button>
 
           <i className="bi bi-facebook"></i>
           
