@@ -43,9 +43,10 @@ export default function Home() {
         </div>   
     </div>
 
+    <Project/>
     <Skills/>
 
-     <Project/>
+  
      
 
     </div>
