@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dhiraj-web/static/css/main.073c9b0a.css",
-    "main.js": "/dhiraj-web/static/js/main.f38799c0.js",
+    "main.css": "/dhiraj-web/static/css/main.35fb24fb.css",
+    "main.js": "/dhiraj-web/static/js/main.044c412d.js",
     "static/js/787.908a91db.chunk.js": "/dhiraj-web/static/js/787.908a91db.chunk.js",
-    "static/media/featued_image.png": "/dhiraj-web/static/media/featued_image.d16712cec583c08b1f84.png",
+    "static/media/featued_image1.png": "/dhiraj-web/static/media/featued_image1.8307d72a4e296c795602.png",
     "index.html": "/dhiraj-web/index.html",
-    "main.073c9b0a.css.map": "/dhiraj-web/static/css/main.073c9b0a.css.map",
-    "main.f38799c0.js.map": "/dhiraj-web/static/js/main.f38799c0.js.map",
+    "main.35fb24fb.css.map": "/dhiraj-web/static/css/main.35fb24fb.css.map",
+    "main.044c412d.js.map": "/dhiraj-web/static/js/main.044c412d.js.map",
     "787.908a91db.chunk.js.map": "/dhiraj-web/static/js/787.908a91db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f38799c0.js"
+    "static/css/main.35fb24fb.css",
+    "static/js/main.044c412d.js"
   ]
 }
